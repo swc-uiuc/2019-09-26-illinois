@@ -54,7 +54,13 @@ eventbrite: "53441740685"          # optional: alphanumeric key for Eventbrite r
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
-<p>The focus of this two-day workshop is on working with genomics data and data management and analysis for genomics research. It covers data management and analysis for genomics research including: best practices for organization of bioinformatics projects and data, use of command line utilities, use of command line tools to analyze sequence quality and perform variant calling, connecting to and using cluster computing resources, and R for data analysis and visualization.</p>
+{% if page.carpentry == "swc" %}
+  {% include sc/intro.html %}
+{% elsif page.carpentry == "dc" %}
+  {% include dc/intro.html %}
+{% elsif page.carpentry == "lc" %}
+  {% include lc/intro.html %}
+{% endif %}
 {% comment %}
   AUDIENCE
 
