@@ -573,32 +573,24 @@ eventbrite: "53441740685"          # optional: alphanumeric key for Eventbrite r
 
   <div class="row">
     <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
+      <h4 id="sql-windows">Windows, Mac, and Linux</h4>
       <p>
-        The <a href="https://github.com/swcarpentry/windows-installer/releases/tag/v0.3">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows Installer
+        <a href="https://sqlitestudio.pl/index.rvt?act=download">
+          SQLite Studio
 	</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
+      is available for Windows, Mac, and Linux in either an installable or a portable form. (The portable form is helpful if you don't have installation rights on the computer you're using, or if you'd like to put it on a thumb drive to move from computer to computer.) SQLite Studio allows you a command line's power with a GUI's helpful visual reference.
       </p>
     </div>
     <div class="col-md-4">
-      <h4 id="sql-macosx">macOS</h4>
+      <h4 id="sql-macosx">Mac</h4>
       <p>
-        SQLite comes pre-installed on macOS.
+        SQLite's command line version comes pre-installed on Macs.
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="sql-linux">Linux</h4>
       <p>
-        SQLite comes pre-installed on Linux.
+        SQLite's command line version comes pre-installed on Linux.
       </p>
     </div>
   </div>
