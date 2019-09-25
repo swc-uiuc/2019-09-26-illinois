@@ -229,9 +229,6 @@ eventbrite: "69039345541"          # optional: alphanumeric key for Eventbrite r
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
-<p>
-  Supplementary materials for the workshop are available at <a href="https://go.illinois.edu/dc-genomics-supp">go.illinois.edu/dc-genomics-supp</a>.
-</p>
 {% endif %}
 
 <hr/>
